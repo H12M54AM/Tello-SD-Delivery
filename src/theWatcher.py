@@ -48,7 +48,7 @@ def getKeyBoardInput():
 
     if kpm.getKey("x"): drone.flip_back()
 
-    if kpm.getKey("f"): drone.get_flight_time()
+    if kpm.getKey("f"): print(drone.get_height())
     # screenshots img
     if kpm.getKey("c"): 
         cv2.iamwrite(f"imgs/{time.time()}.jpg",feed)

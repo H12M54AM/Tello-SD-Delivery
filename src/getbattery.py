@@ -18,7 +18,7 @@ def saucemeter():
             print(" ")
         if battery < 10:
             print(" ")
-            print("Power is at: Very Low")
+            print("Power is: Very Low")
             print(" ")
         break
 saucemeter()

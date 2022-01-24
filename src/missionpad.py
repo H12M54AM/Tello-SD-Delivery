@@ -10,12 +10,12 @@ def targetLock():
     drone.takeoff()
 
     pad = drone.get_mission_pad_id()
-    detection = drone.set_mission_pad_detection_direction(0)
+    detection = drone.set_mission_pad_detection_direction(1)
     # detect and react to pads until we see pad #1
 
     # Route
     drone.move_up(50)
-    
+
         
 
     while pad != 1:
