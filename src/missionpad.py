@@ -1,5 +1,4 @@
 from djitellopy import tello
-from getbattery import saucemeter
 
 drone = tello.Tello()
 drone.connect()
@@ -7,7 +6,6 @@ drone.connect()
 # code
 def targetLock():
     drone.enable_mission_pads()
-    drone.set_mission_pad_detection_direction(1)  # forward detection only  只识别前方
 
     drone.takeoff()
 
@@ -27,5 +25,4 @@ def targetLock():
     drone.disable_mission_pads()
     drone.land()
     drone.end()
-
-saucemeter()
+targetLock()
