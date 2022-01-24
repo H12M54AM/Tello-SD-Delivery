@@ -1,0 +1,15 @@
+The Route:
+
+I will be making a known route for the drone where it does not interfere
+with people's ability of moving from place to place. 
+
+Step 1:
+    Takeoff to reasonable height,
+    Turn clockwise until the drone has detected something,
+Step 2:
+    if detection is made clear, 
+        stop rotating
+        move forward
+Step 3:
+    if drone is within X cm in height
+        land
