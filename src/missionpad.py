@@ -37,8 +37,9 @@ def targetLock():
     while pad != 1:
         if pad == 3:
             stepTwo()
-            
-        elif pad == 4:
+    
+
+        if pad == 4:
             # Counter Forward
             drone.send_rc_control(10, 0, 0, 0)
             # To move back and counter the momentum
