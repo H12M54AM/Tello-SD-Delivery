@@ -4,6 +4,7 @@ from missionpad import targetLock
 from streamVideo import streamith
 import theWatcher
 
+
 # Connection
 drone = tello.Tello()
 drone.connect()
@@ -13,3 +14,5 @@ drone.connect()
 saucemeter()
 theWatcher()
 targetLock()
+
+# Made by Edward Naidoo from Grade 12 
