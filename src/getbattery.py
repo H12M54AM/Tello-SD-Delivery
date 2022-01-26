@@ -16,6 +16,10 @@ def saucemeter():
             print(" ")
             print("Power is at: Low Battery")
             print(" ")
+        if battery == 100:
+            print(" ")
+            print("Power is: Ready to rock and roll :)")
+            print(" ")
         if battery < 10:
             print(" ")
             print("Power is: Very Low")
