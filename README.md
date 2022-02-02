@@ -13,5 +13,4 @@ The version of Python is 3.7.6 64-bit
 ### Credits
 Code written by Edward Naidoo
 
-I would have not done this without the people around me. My teacher, 
-Mr Dirom, Class of Mechatronics for the support, both mental/emotional but also advise for this whole project
+I would have not done this without the people around me. My teacher, Class of Mechatronics for the support, both mental and emotional, but also advise for this whole project
